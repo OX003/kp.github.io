@@ -16,38 +16,39 @@
 
     header {
       background-color: #0a1f44;
-      padding: 60px 20px 40px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
+      padding: 60px 20px 50px;
       color: #ffffff;
+      text-align: center;
     }
 
     .brandbar {
       display: flex;
-      align-items: center;
       justify-content: center;
-      gap: 20px;
+      align-items: center;
       flex-wrap: wrap;
+      gap: 24px;
     }
 
     .brandbar img {
-      width: 64px;
+      width: 90px;
       height: auto;
+    }
+
+    .brand-text {
+      text-align: left;
     }
 
     .brand-text h1 {
       margin: 0;
-      font-size: 2.5rem;
+      font-size: 3rem;
       color: #00cc66;
       font-weight: 600;
       letter-spacing: 0.5px;
     }
 
     .brand-text h2 {
-      margin-top: 4px;
-      font-size: 1.1rem;
+      margin-top: 6px;
+      font-size: 1.25rem;
       font-weight: 400;
       color: #cfd8e2;
     }
@@ -140,11 +141,11 @@
     @media (max-width: 600px) {
       .brandbar {
         flex-direction: column;
-        align-items: center;
+        text-align: center;
       }
 
       .brand-text h1 {
-        font-size: 2rem;
+        font-size: 2.3rem;
       }
 
       .brand-text h2 {
@@ -203,9 +204,7 @@
     <br/>
     <a href="#">About</a> · 
     <a href="#">Contact</a> · 
-    <a href="#">Careers</a> · 
-    <a href="#">LinkedIn</a> · 
-    <a href="#">GitHub</a>
+    <a href="#">Careers</a> ·
   </footer>
 
 </body>
